@@ -1,12 +1,13 @@
 {
   "name": "@vultrexdev/guildyjs-collection",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/index.js",
   "author": "J_DDev <69683068+JayyDoesDev@users.noreply.github.com>",
   "license": "MIT",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "yarn build"
   },
   "repository": "https://github.com/vultrex/guildyjs-collection.git",
   "dependencies": {
