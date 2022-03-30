@@ -1,20 +1,21 @@
 {
-    "compilerOptions": {
-        "target": "ES2019",
-        "module": "commonjs",
-        "outDir": "dist",
-        "strict": false,
-        "strictNullChecks": true,
-        "noUnusedLocals": true,
-        "declaration": true,
-        "declarationDir": "typings",
-        "sourceMap": true,
-        "incremental": true,
-    },
-    "exclude": [
-        "node_modules",
-      ],
-      "include": [
-        "src"
-      ]
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2019",
+    "outDir": "dist",
+    "pretty": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "declarationMap": true,
+    "incremental": true,
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules",
+  ],
+  "include": [
+    "src"
+  ]
 }
