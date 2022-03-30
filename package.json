@@ -1,6 +1,6 @@
 {
-  "name": "guildyjs-collection",
-  "version": "1.0.0",
+  "name": "@vultrexdev/guildyjs-collection",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "author": "J_DDev <69683068+JayyDoesDev@users.noreply.github.com>",
   "license": "MIT",
@@ -8,7 +8,7 @@
   "scripts": {
     "build": "tsc"
   },
-  "repository": "",
+  "repository": "https://github.com/vultrex/guildyjs-collection.git",
   "dependencies": {
     "@types/node": "^17.0.23",
     "typescript": "^4.6.3"
